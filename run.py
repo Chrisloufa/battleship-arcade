@@ -1,3 +1,18 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+
+computer_board = [[' '] * 8 for x in range(8)]
+player_board = [[' '] * 8 for x in range(8)]
+
+letter_to_num = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7}
+"""Convert letters to numbers"""
+
+def board():
+    pass
+
+def build_ships():
+    pass
+
+def ship_location():
+    pass
+
+def sum_hit_ships():
+    pass
